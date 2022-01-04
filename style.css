@@ -1,25 +1,29 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0px;
+    margin: 0%;
 }
 h1{
-    font-size: 70px;
+    font-size: 65px;
 }
 .orng-clr{
-    color: orange;
+    color: orangered;
 }
 h2{
     font-size: 30px;
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
-    width: 50%;
-    padding-left: 2%;
+    width: 80%;
+    padding-left: 5%;
+    padding-top: 2%;
 }
 .half-width img{
-    width: 60%;
+    width: 70%;
+    padding-left: 28%;
+    padding-top: 10%;
 }
 .link-button{
     text-decoration: none;
@@ -30,6 +34,15 @@ section{
     color: white;
 }
 .top-banner{
-    background-image: url(images/top-banner.png);
+    background-image: url(images/1_ZhuqSg8Jmz4p8H6X5U1uzQ.png);
     background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+    margin-top: 2%;
+}
+.second-part{
+    background-image:url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 0%;
 }
